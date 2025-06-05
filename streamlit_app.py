@@ -5,7 +5,7 @@ st.set_page_config(page_title="실시간 채팅", layout="centered")
 st.title("💬 실시간 웹소켓 채팅")
 
 # 아래 주소를 당신의 Railway 도메인 주소로 교체하세요
-WEBSOCKET_URL = "wss://your-railway-name.up.railway.app/ws"
+WEBSOCKET_URL = "wss://web-production-cf377.up.railway.app/ws"
 
 html_code = f"""
 <!DOCTYPE html>
