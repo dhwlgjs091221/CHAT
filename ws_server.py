@@ -41,4 +41,4 @@ async def websocket_endpoint(websocket: WebSocket):
         manager.disconnect(websocket)
 
 if __name__ == "__main__":
-    uvicorn.run("ws_server:app", host="0.0.0.0", port=8000)
+    uvicorn.run("ws_server:app", host="chattingapp.streamlit.app", port=8000)
