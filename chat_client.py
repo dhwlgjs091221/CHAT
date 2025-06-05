@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 st.title("실시간 웹소켓 채팅앱 (Streamlit 클라이언트)")
 
 # Railway에서 배포한 주소로 바꾸세요 (wss://...)
-WEBSOCKET_URL = "wss://your-railway-project.up.railway.app/ws"
+WEBSOCKET_URL = "ws://https://chattingapp.streamlit.app/:8000"
 
 html_code = f"""
 <!DOCTYPE html>
